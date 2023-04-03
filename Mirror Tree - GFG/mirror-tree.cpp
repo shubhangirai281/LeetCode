@@ -116,10 +116,10 @@ class Solution {
         return;
         // else{
             
-        Node *temp=node;
-        swap(temp->right, temp->left);
-        mirror(temp->left);
-        mirror(temp->right);
+        // Node *temp=node;
+        swap(node->right, node->left);
+        mirror(node->left);
+        mirror(node->right);
         
     }
 };
