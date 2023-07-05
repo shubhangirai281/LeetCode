@@ -105,7 +105,7 @@ class Solution
     vector<int> topView(Node *root)
     {
         //Your code here
-            vector<int> res;
+        vector<int> res;
         if(!root) return res;
         
         unordered_map<int, int> m;
